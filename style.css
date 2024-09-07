@@ -3,15 +3,7 @@ body {
   margin: 0;
   padding: 0;
 }
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #333;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 header {
   background-color: #333;
   color: #fff;
@@ -46,4 +38,24 @@ img {
   margin-bottom: 20px;
   border: 1px solid #ccc;
   padding: 20px;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+footer a:hover {
+  color: #f39c12; /* Change color on hover */
 }
